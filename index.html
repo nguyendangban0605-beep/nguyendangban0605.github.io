@@ -6,8 +6,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>myviteproject</title>
   </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
+<body>
+ <div id="app" class="min-h-screen bg-slate-50">
+    <nav class="bg-slate-900 text-white p-5 shadow-lg">
+      <div class="container mx-auto flex justify-between items-center px-6">
+        <h1 class="text-2xl font-bold text-teal-400 tracking-tighter">NGUYEN.DEV</h1>
+        <ul class="hidden md:flex gap-8 font-medium">
+          <li><a href="#" class="hover:text-teal-400 transition-colors">Home</a></li>
+          <li><a href="#" class="hover:text-teal-400 transition-colors">About</a></li>
+          <li><a href="#" class="hover:text-teal-400 transition-colors">Projects</a></li>
+          <li><a href="#" class="hover:text-teal-400 transition-colors">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <section class="container mx-auto flex flex-col-reverse md:flex-row items-center justify-center py-20 px-10 gap-16">
+      
+      <div class="flex-1 text-center md:text-left">
+        <h2 class="text-6xl font-extrabold text-slate-800 mb-6 leading-tight">
+          Chào bạn, tôi là <br>
+          <span class="text-teal-500">Lê Văn Công Nguyên</span>
+        </h2>
+        <p class="text-xl text-slate-600 leading-relaxed mb-10 max-w-2xl">
+          Tôi là một sinh viên ngành Công nghệ thông tin với niềm đam mê mãnh liệt trong việc xây dựng các ứng dụng web hiện đại. 
+          Hiện tại, tôi đang tập trung phát triển kỹ năng về <span class="text-slate-900 font-semibold border-b-2 border-teal-500">Web Design</span> và <span class="text-slate-900 font-semibold border-b-2 border-teal-500">Full-stack Development</span>.
+        </p>
+        <div class="flex flex-wrap gap-4 justify-center md:justify-start">
+          <button class="px-10 py-4 bg-slate-900 text-white rounded-xl font-bold hover:bg-teal-600 transition-all shadow-xl hover:-translate-y-1">
+            Xem dự án của tôi
+          </button>
+          <button class="px-10 py-4 border-2 border-slate-900 text-slate-900 rounded-xl font-bold hover:bg-slate-900 hover:text-white transition-all shadow-lg">
+            Liên hệ ngay
+          </button>
+        </div>
+      </div>
+
+      <div class="relative w-64 h-64 md:w-96 md:h-96 group">
+        <div class="absolute inset-0 bg-teal-500 rounded-[2rem] rotate-6 group-hover:rotate-12 transition-transform duration-500"></div>
+    <img src="./hanoicodon.jpg" alt="Lê Văn Công Nguyên" 
+     class="relative z-10 w-full h-full object-cover rounded-[2rem] shadow-2xl border-4 border-white grayscale hover:grayscale-0 transition-all duration-700">
+      </div>
+      
+    </section>
+  </div>
+
+  <script type="module" src="/src/scripts/application.js"></script>
   </body>
-</html>
