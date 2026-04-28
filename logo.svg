@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="Logo N" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1223" />
+      <stop offset="100%" stop-color="#001331" />
+    </linearGradient>
+  </defs>
+  <circle cx="60" cy="60" r="58" fill="url(#gradient)" />
+  <circle cx="60" cy="60" r="52" fill="#001f3d" />
+  <path d="M40 85C40 85 45 35 55 35C65 35 70 75 70 75C70 75 75 35 85 35C95 35 80 85 80 85" stroke="#29f6ff" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+  <path d="M40 85C40 85 45 35 55 35C65 35 70 75 70 75C70 75 75 35 85 35C95 35 80 85 80 85" fill="none" />
+</svg>
